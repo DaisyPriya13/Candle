@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: cursive;
+    color: #400;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #400;
+    color: wheat;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.story-img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.story-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.story-text h2 {
+    margin-top: 0;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section:nth-child(even) .container {
+    flex-direction: row-reverse;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    margin-bottom: 20px;
+}
+
+.event h3 {
+    margin: 0;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-grid img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #400;
+    color: wheat;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: wheat;
+    color: #400;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

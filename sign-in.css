@@ -1,0 +1,75 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Background */
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color:#400;
+}
+
+/* Centered container for sign in box */
+.container {  
+  text-align: center;
+  color: wheat;
+}
+.brand-name h1 {
+    font-family:  cursive;
+    font-size: 60px;  /* Larger size for more impact */
+    color: wheat;
+    margin-bottom: 30px;
+    font-style: italic;  
+}
+
+/* Input fields (Email and Password) */
+.input-field {
+    width: 53%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px; /* Oval shape */
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.7);
+}
+
+/* Submit button */
+.submit-btn {
+    width: 55%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px; /* Oval shape */
+    background-color: #400;
+    color: wheat;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Welcome Message */
+.welcome-message p {
+    font-family: 'Sacramento', cursive;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .signin-box {
+        width: 90%;
+        padding: 30px;
+    }
+}
